@@ -1,11 +1,11 @@
-<ion-view title="Rivalry | Friends">
+<ion-view title="Rivalry | Home">
   <ion-nav-buttons side="left">
     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
   </ion-nav-buttons>
   <ion-content class="has-header">
     <ion-list>
-      <ion-item ng-repeat="friend in friends" ng-click="showAlert(friend.push)">
-        {{friend.title}}
+      <ion-item ng-repeat="bestie in besties" ng-click="showAlert(bestie.push)">
+        {{bestie.title}}
         <ion-option-button class="button-positive">
           Stuff
         </ion-option-button>

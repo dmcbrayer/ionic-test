@@ -33,6 +33,19 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('HomeCtrl', function($scope, $ionicListDelegate) {
+  
+  //This here should be smarter, doing some kind of calculation to dynamically generate this list from the top five friends.
+
+  $scope.besties = [
+    {id: 1, title: 'Jeff', push: 'Roll Tide'},
+    {id: 2, title: 'Jake', push: 'Go Dawgs'},
+    {id: 3, title: 'Daniel', push: "Go Dawgs" },
+    {id: 4, title: 'David', push: "Geaux Tigers" },
+    {id: 5, title: 'Janet', push: "Go Vols" },
+  ];
+})
+
 .controller('FriendsCtrl', function($scope, $ionicListDelegate) {
   $scope.friends = [
     { title: 'Jeff', id: 1, push: "Roll Tide" },
@@ -40,7 +53,16 @@ angular.module('starter.controllers', [])
     { title: 'Daniel', id: 3, push: "Go Dawgs" },
     { title: 'David', id: 4, push: "Geaux Tigers" },
     { title: 'Janet', id: 5, push: "Go Vols" },
-    { title: 'Lisa', id: 6, push: "Roll Tide" }
+    { title: 'Lisa', id: 6, push: "Roll Tide" },
+    { title: 'Janet', id: 7, push: "Go Vols" },
+    { title: 'Heihachi', id: 8, push: "Rammer Jammer" },
+    { title: 'The Doctor', id: 9, push: "Hey!" },
+    { title: 'Rose', id: 10, push: "Go Dawgs" },
+    { title: 'The Master', id: 11, push: "Roll Tide" },
+    { title: 'Rory', id: 12, push: "Geaux Tigers" },
+    { title: 'Amy', id: 13, push: "Gig 'em" },
+    { title: 'Michael', id: 14, push: "Sooooeeyyy" },
+    { title: 'Bolton', id: 15, push: "War Eagle" },
   ];
 
   $scope.showAlert = function(push) {
