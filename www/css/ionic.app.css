@@ -4134,10 +4134,10 @@ a.subdued {
   z-index: 2;
   display: block;
   margin: -1px;
-  padding: 16px;
+  padding: 30px;
   border-width: 1px;
   border-style: solid;
-  font-size: 16px; }
+  font-size: 30px; }
   .item h2 {
     margin: 0 0 4px 0;
     font-size: 16px; }
@@ -4163,12 +4163,12 @@ a.subdued {
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    top: 16px;
-    right: 32px; }
+    top: 30px;
+    right: 60px; }
   .item.item-button-right .badge {
-    right: 67px; }
+    right: 95px; }
   .item.item-divider .badge {
-    top: 8px; }
+    top: 15px; }
   .item .badge + .badge {
     margin-right: 5px; }
   .item.item-light {
@@ -4267,7 +4267,7 @@ a.item {
 .item-complex .item-content, .item-radio .item-content {
   position: relative;
   z-index: 2;
-  padding: 16px 49px 16px 16px;
+  padding: 30px 95px 30px 30px;
   border: none;
   background-color: white; }
 
@@ -4379,24 +4379,24 @@ a.item-content {
   font-size: 28px; }
 
 .item-icon-left {
-  padding-left: 54px; }
+  padding-left: 100px; }
   .item-icon-left .icon {
-    left: 11px; }
+    left: 20px; }
 
 .item-complex.item-icon-left {
   padding-left: 0; }
   .item-complex.item-icon-left .item-content {
-    padding-left: 54px; }
+    padding-left: 100px; }
 
 .item-icon-right {
-  padding-right: 54px; }
+  padding-right: 100px; }
   .item-icon-right .icon {
-    right: 11px; }
+    right: 20px; }
 
 .item-complex.item-icon-right {
   padding-right: 0; }
   .item-complex.item-icon-right .item-content {
-    padding-right: 54px; }
+    padding-right: 100px; }
 
 .item-icon-left.item-icon-right .icon:first-child {
   right: auto; }
@@ -4409,10 +4409,10 @@ a.item-content {
   font-size: 16px; }
 
 .item-icon-left .icon-accessory {
-  left: 3px; }
+  left: 6px; }
 
 .item-icon-right .icon-accessory {
-  right: 3px; }
+  right: 6px; }
 
 /**
  * Item Button
@@ -4420,7 +4420,7 @@ a.item-content {
  * An item button is a child button inside an .item (not the entire .item)
  */
 .item-button-left {
-  padding-left: 72px; }
+  padding-left: 135px; }
 
 .item-button-left > .button, .item-button-left .item-content > .button {
   display: -webkit-box;
@@ -4435,8 +4435,8 @@ a.item-content {
   -moz-align-items: center;
   align-items: center;
   position: absolute;
-  top: 8px;
-  left: 11px;
+  top: 15px;
+  left: 20px;
   min-width: 34px;
   min-height: 34px;
   font-size: 18px;
@@ -4453,7 +4453,7 @@ a.item-content {
     line-height: 32px; }
 
 .item-button-right, a.item.item-button-right, button.item.item-button-right {
-  padding-right: 80px; }
+  padding-right: 150px; }
 
 .item-button-right > .button, .item-button-right .item-content > .button, .item-button-right > .buttons, .item-button-right .item-content > .buttons {
   display: -webkit-box;
@@ -4468,8 +4468,8 @@ a.item-content {
   -moz-align-items: center;
   align-items: center;
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 15px;
+  right: 30px;
   min-width: 34px;
   min-height: 34px;
   font-size: 18px;
@@ -4487,31 +4487,31 @@ a.item-content {
     line-height: 32px; }
 
 .item-avatar, .item-avatar .item-content, .item-avatar-left, .item-avatar-left .item-content {
-  padding-left: 72px;
-  min-height: 72px; }
+  padding-left: 100px;
+  min-height: 100px; }
   .item-avatar > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image, .item-avatar-left > img:first-child, .item-avatar-left .item-image, .item-avatar-left .item-content > img:first-child, .item-avatar-left .item-content .item-image {
     position: absolute;
-    top: 16px;
-    left: 16px;
+    top: 30px;
+    left: 30px;
     max-width: 40px;
     max-height: 40px;
     width: 100%;
     border-radius: 4px; }
 
 .item-avatar-right, .item-avatar-right .item-content {
-  padding-right: 72px;
-  min-height: 72px; }
+  padding-right: 100px;
+  min-height: 100px; }
   .item-avatar-right > img:first-child, .item-avatar-right .item-image, .item-avatar-right .item-content > img:first-child, .item-avatar-right .item-content .item-image {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 30px;
+    right: 30px;
     max-width: 40px;
     max-height: 40px;
     width: 100%;
     border-radius: 4px; }
 
 .item-thumbnail-left, .item-thumbnail-left .item-content {
-  padding-left: 106px;
+  padding-left: 120px;
   min-height: 100px; }
   .item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image {
     position: absolute;
@@ -4525,7 +4525,7 @@ a.item-content {
   padding-left: 0; }
 
 .item-thumbnail-right, .item-thumbnail-right .item-content {
-  padding-right: 106px;
+  padding-right: 120px;
   min-height: 100px; }
   .item-thumbnail-right > img:first-child, .item-thumbnail-right .item-image, .item-thumbnail-right .item-content > img:first-child, .item-thumbnail-right .item-content .item-image {
     position: absolute;
@@ -4547,16 +4547,16 @@ a.item-content {
 
 .item-body {
   overflow: auto;
-  padding: 16px;
+  padding: 30px;
   text-overflow: inherit;
   white-space: normal; }
   .item-body h1, .item-body h2, .item-body h3, .item-body h4, .item-body h5, .item-body h6, .item-body p {
-    margin-top: 16px;
-    margin-bottom: 16px; }
+    margin-top: 30px;
+    margin-bottom: 30px; }
 
 .item-divider {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   min-height: 30px;
   background-color: #f5f5f5;
   color: #222;
@@ -4999,7 +4999,7 @@ input, button, select, textarea {
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding: 10.66667px; }
+  padding: 20px; }
 
 .item-input-wrapper {
   display: -webkit-box;
@@ -5033,7 +5033,7 @@ input, button, select, textarea {
   line-height: 18px; }
 
 .item-input-wrapper ~ .button {
-  margin-left: 10.66667px; }
+  margin-left: 20px; }
 
 .input-label {
   -webkit-box-flex: 1;
@@ -5286,21 +5286,21 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
   opacity: 1; }
 
 .item-checkbox {
-  padding-left: 60px; }
+  padding-left: 88px; }
   .item-checkbox.active {
     box-shadow: none; }
 
 .item-checkbox .checkbox {
   position: absolute;
   top: 50%;
-  right: 8px;
-  left: 8px;
+  right: 15px;
+  left: 15px;
   z-index: 3;
   margin-top: -21px; }
 
 .item-checkbox.item-checkbox-right {
-  padding-right: 60px;
-  padding-left: 16px; }
+  padding-right: 88px;
+  padding-left: 30px; }
 
 .item-checkbox-right .checkbox input, .item-checkbox-right .checkbox-icon {
   float: right; }
@@ -5412,15 +5412,15 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
   box-shadow: none; }
 
 .item-toggle, .item-toggle.item-complex .item-content {
-  padding-right: 102px; }
+  padding-right: 144px; }
 
 .item-toggle.item-complex {
   padding-right: 0; }
 
 .item-toggle .toggle {
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 15px;
+  right: 30px;
   z-index: 3; }
 
 .toggle input:disabled + .track {
@@ -5437,7 +5437,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
 
 .item-radio .item-content {
   /* give some room to the right for the checkmark icon */
-  padding-right: 64px; }
+  padding-right: 120px; }
 
 .item-radio .radio-icon {
   /* checkmark icon will be hidden by default */
@@ -5446,7 +5446,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
   right: 0;
   z-index: 3;
   visibility: hidden;
-  padding: 14px;
+  padding: 28px;
   height: 100%;
   font-size: 24px; }
 
@@ -5602,7 +5602,7 @@ input[type="range"] {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 14px 48px 16px 16px;
+    padding: 28px 90px 30px 30px;
     max-width: 65%;
     border: none;
     background: #fff;
@@ -5620,7 +5620,7 @@ input[type="range"] {
   .item-select:after {
     position: absolute;
     top: 50%;
-    right: 16px;
+    right: 30px;
     margin-top: -3px;
     width: 0;
     height: 0;
@@ -7799,3 +7799,6 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
 
 .center {
   text-align: center; }
+
+body {
+  font-family: 'Lato', sans-serif; }
