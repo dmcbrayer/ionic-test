@@ -33,7 +33,7 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('FriendCtrl', function($scope) {
+.controller('FriendsCtrl', function($scope) {
   $scope.friends = [
     { title: 'Jeff', id: 1, push: "Roll Tide" },
     { title: 'Jake', id: 2, push: "Go Dawgs" },

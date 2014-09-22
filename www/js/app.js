@@ -52,7 +52,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/friends.html",
-          controller: 'FriendCtrl'
+          controller: 'FriendsCtrl'
         }
       }
     })
