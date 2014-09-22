@@ -4,8 +4,9 @@
   </ion-nav-buttons>
   <ion-content class="has-header">
     <ion-list>
-      <ion-item ng-repeat="bestie in besties" ng-click="showAlert(bestie.push)">
+      <ion-item item-type="item-icon-right" ng-repeat="bestie in besties" ng-click="showAlert(bestie.push)">
         {{bestie.title}}
+        <i class="icon ion-ionic"></i>
         <ion-option-button ng-click ="showScore()" class="button-large button-assertive">
           Scoreboard
         </ion-option-button>
