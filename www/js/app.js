@@ -56,8 +56,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/profile",
       views: {
         'menuContent': {
-          templateUrl: "templates/profile.html"
-
+          templateUrl: "templates/profile.html",
+          controller: 'UserCtrl'
         }
       }
     })
@@ -81,6 +81,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/friends');
+  $urlRouterProvider.otherwise('/app/home');
 });
 

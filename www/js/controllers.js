@@ -62,7 +62,7 @@ angular.module('starter.controllers', [])
     { title: 'Rory', id: 12, push: "Geaux Tigers" },
     { title: 'Amy', id: 13, push: "Gig 'em" },
     { title: 'Michael', id: 14, push: "Sooooeeyyy" },
-    { title: 'Bolton', id: 15, push: "War Eagle" },
+    { title: 'Bolton', id: 15, push: "War Eagle" }
   ];
 
   $scope.showAlert = function(push) {
@@ -70,6 +70,15 @@ angular.module('starter.controllers', [])
   };
 
 
+})
+
+.controller('UserCtrl', function($scope){
+  $scope.teams = [
+    {id: 1, name: 'University of Alabama', callout: 'Roll Tide', primarycolor:'#990000', secondarycolor:'#eeeeee'},
+    {id: 2, name: 'University of Georgia', callout: 'Go Dawgs', primarycolor:'#FF0000', secondarycolor:'#000000'}
+  ];
+
+  $scope.myTeam = $scope.teams[0];
 })
 
 .controller('FriendCtrl', function($scope, $stateParams) {
