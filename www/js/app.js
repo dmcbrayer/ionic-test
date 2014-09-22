@@ -56,8 +56,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/profile",
       views: {
         'menuContent': {
-          templateUrl: "templates/profile.html",
+          templateUrl: "templates/profile.html"
 
+        }
+      }
+    })
+
+    .state('app.logout', {
+      url: "/logout",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/logout.html"
         }
       }
     })
