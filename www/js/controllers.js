@@ -44,6 +44,10 @@ angular.module('starter.controllers', [])
     {id: 4, title: 'David', push: "Geaux Tigers" },
     {id: 5, title: 'Janet', push: "Go Vols" },
   ];
+
+  $scope.showAlert = function(push) {
+    alert(push);
+  };
 })
 
 .controller('FriendsCtrl', function($scope, $ionicListDelegate) {
