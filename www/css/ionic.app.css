@@ -7803,13 +7803,10 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
 body {
   font-family: 'Lato', sans-serif; }
 
-/*.uga-colors {
-  color: #ff0000;
-  background-color: #000000;
-}
+.uga-colors {
+  color: #000000;
+  background: #ff0000; }
 
 .ua-colors {
-	color: #eeeeee;
-	background-color: #990000;
-
-}*/
+  color: #eeeeee;
+  background: #990000; }

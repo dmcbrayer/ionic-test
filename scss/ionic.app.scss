@@ -17,7 +17,10 @@ $dark:                            #444 !default;
 $item-font-size:                  24px !default;
 $item-padding:                    24px !default;
 
-
+$UGA-text-color:				  #000000;
+$UGA-bg-color:					  #ff0000;
+$UA-text-color:					  #eeeeee;
+$UA-bg-color:					  #990000;
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
@@ -34,12 +37,12 @@ body {
 }
 
 .uga-colors {
-  color: #ff0000;
-  background: #000000;
+  color: $UGA-text-color;
+  background: $UGA-bg-color;
 }
 
 .ua-colors {
-	color: #eeeeee;
-	background: #990000;
+	color: $UA-text-color;
+	background: $UA-bg-color;
 
 }
