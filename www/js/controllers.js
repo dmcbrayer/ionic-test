@@ -46,13 +46,20 @@ angular.module('starter.controllers', [])
   ];
 
   $scope.showAlert = function(push) {
+    $scope.toggleColor();
     alert(push);
+
   };
 
   $scope.showScore = function() {
     var score = "Scoreboard";
     alert(score);
   };
+
+  $scope.toggleColor = function() {
+    alert("Toggle");
+  };
+
 })
 
 .controller('InviteCtrl', function($scope, $ionicListDelegate) {
