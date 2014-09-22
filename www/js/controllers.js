@@ -48,6 +48,11 @@ angular.module('starter.controllers', [])
   $scope.showAlert = function(push) {
     alert(push);
   };
+
+  $scope.showScore = function() {
+    var score = "Scoreboard";
+    alert(score);
+  };
 })
 
 .controller('FriendsCtrl', function($scope, $ionicListDelegate) {
@@ -71,6 +76,11 @@ angular.module('starter.controllers', [])
 
   $scope.showAlert = function(push) {
     alert(push);
+  };
+
+  $scope.showScore = function() {
+    var score = "Scoreboard";
+    alert(score);
   };
 
 
