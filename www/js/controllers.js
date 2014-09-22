@@ -74,8 +74,8 @@ angular.module('starter.controllers', [])
 
 .controller('UserCtrl', function($scope){
   $scope.teams = [
-    {id: 1, name: 'University of Alabama', callout: 'Roll Tide', primarycolor:'#990000', secondarycolor:'#eeeeee'},
-    {id: 2, name: 'University of Georgia', callout: 'Go Dawgs', primarycolor:'#FF0000', secondarycolor:'#000000'}
+    {id: 1, name: 'University of Alabama', callout: 'Roll Tide', primarycolor:'#990000', secondarycolor:'#eeeeee', style: 'ua-colors'},
+    {id: 2, name: 'University of Georgia', callout: 'Go Dawgs', primarycolor:'#FF0000', secondarycolor:'#000000', style: 'uga-colors'}
   ];
 
   $scope.myTeam = $scope.teams[0];
