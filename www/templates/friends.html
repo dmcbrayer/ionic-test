@@ -6,6 +6,9 @@
     <ion-list>
       <ion-item ng-repeat="friend in friends" ng-click="showAlert(friend.push)">
         {{friend.title}}
+        <ion-option-button class="button-positive">
+          Stuff
+        </ion-option-button>
       </ion-item>
     </ion-list>
   </ion-content>

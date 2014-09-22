@@ -33,19 +33,21 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('FriendsCtrl', function($scope) {
+.controller('FriendsCtrl', function($scope, $ionicListDelegate) {
   $scope.friends = [
     { title: 'Jeff', id: 1, push: "Roll Tide" },
     { title: 'Jake', id: 2, push: "Go Dawgs" },
     { title: 'Daniel', id: 3, push: "Go Dawgs" },
     { title: 'David', id: 4, push: "Geaux Tigers" },
-    { title: 'Rap', id: 5, push: "Go Vols" },
-    { title: 'Cowbell', id: 6, push: "Roll Tide" }
+    { title: 'Janet', id: 5, push: "Go Vols" },
+    { title: 'Lisa', id: 6, push: "Roll Tide" }
   ];
 
   $scope.showAlert = function(push) {
     alert(push);
   };
+
+
 })
 
 .controller('FriendCtrl', function($scope, $stateParams) {
