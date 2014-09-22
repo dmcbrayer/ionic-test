@@ -9,19 +9,41 @@
 
   <ion-side-menu side="left">
     <header class="bar bar-header bar-stable">
-      <h1 class="title">Left</h1>
+      <h1 class="title">Rivalry</h1>
     </header>
     <ion-content class="has-header">
       <ion-list>
         <ion-item nav-clear menu-close ng-click="login()">
           Login
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/search">
+        <ion-item item-type="item-icon-left" nav-clear menu-close href="#/app/home">
+          <i class="icon ion-home"></i>
+            Home
+        </ion-item>
+                
+        <ion-item item-type="item-icon-left" nav-clear menu-close href="#/app/share">
+            <i class="icon ion-share"></i>
+            Invite
+        </ion-item>
+        <ion-item item-type="item-icon-left" nav-clear menu-close href="#/app/person/me/friends">
+            <i class="icon ion-ios7-people"></i>
+            Friends
+        </ion-item>
+        <ion-item item-type="item-icon-left" nav-clear menu-close href="#/app/profile">
+            <i class="icon ion-person"></i>
+            Settings
+        </ion-item>
+
+        <ion-item item-type="item-icon-left" nav-clear menu-close ng-click="logout()">
+            <i class="icon ion-log-out"></i>
+            Logout
+        </ion-item>        
+        <!--<ion-item nav-clear menu-close href="#/app/search">
           Search
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/browse">
+        </ion-item>-->
+        <!--<ion-item nav-clear menu-close href="#/app/browse">
           Browse
-        </ion-item>
+        </ion-item>-->
         <ion-item nav-clear menu-close href="#/app/friends">
           Friends
         </ion-item>
