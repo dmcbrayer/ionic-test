@@ -55,6 +55,22 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('InviteCtrl', function($scope, $ionicListDelegate) {
+
+  $scope.uninviteds = [
+    {id: 1, title: 'Cletus', phone: '(555)542-5498'},
+    {id: 2, title: 'Loomis', phone: '(555)542-6498'},
+    {id: 3, title: 'Merle', phone: '(555)542-5798'},
+    {id: 4, title: 'Willie', phone: '(555)542-5418'},
+    {id: 5, title: 'Gus', phone: '(555)542-5228'}
+  ];
+
+  $scope.sendText = function(number) {
+    var text = "Invite sent to ";
+    alert(text + number);
+  };
+})
+
 .controller('FriendsCtrl', function($scope, $ionicListDelegate) {
   $scope.friends = [
     { title: 'Jeff', id: 1, push: "Roll Tide" },

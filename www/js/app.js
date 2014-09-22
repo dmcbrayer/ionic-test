@@ -41,6 +41,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+    .state('app.invite', {
+      url: "/invite",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/invite.html",
+          controller: 'InviteCtrl'
+
+        }
+      }
+    })
+
 
     .state('app.friends', {
       url: "/friends",
